@@ -1,21 +1,21 @@
-// /* This is a multiple line comment.
-// The multiple line comment is finished here. */
+/* This is a multiple line comment.
+The multiple line comment is finished here. */
 
-// console.log("Hello World");      // This is the way how to print anything in Java Script.
+console.log("Hello World");      // This is the way how to print anything in Java Script.
 
-// alert("If you exit from this site your pc will blast.") //one time
-// let fullName = prompt("Enter your name:"); // one time
-// let age = prompt("ENter your age:");
+alert("If you exit from this site your pc will blast.") //one time
+let fullName = prompt("Enter your name:"); // one time
+let age = prompt("ENter your age:");
 
-// console.log(fullName, age)
+console.log(fullName, age)
 
 
-// let num = prompt("Enter a number:");
-// if (num % 5 === 0) {
-//     console.log(num, "is multiple of 5.");
-// }else{
-//     console.log(num, "isn't multiple of 5.");
-// }
+let num = prompt("Enter a number:");
+if (num % 5 === 0) {
+    console.log(num, "is multiple of 5.");
+}else{
+    console.log(num, "isn't multiple of 5.");
+}
 
 
 
@@ -114,20 +114,20 @@ let result = age1 >= 18 ? "adult" : "not adult";
 console.log(result);
 
 
-// let score = prompt("Enter your score(0-100):");
+let score = prompt("Enter your score(0-100):");
 
-// let grade;
+let grade;
 
-// if(score >= 90 && score <=100) {
-//     grade = "A;"
-// }else if(score >= 70 && score <= 89) {
-//     grade = "b";
-// }else if(score >= 60 && score <= 69) {
-//     grade = "C";
-// }else if(score >= 50 && score <= 59) {
-//     grade = "D";
-// }else if(score >= 0 && score <= 49) {
-//     grade = "F";
-// }
+if(score >= 90 && score <=100) {
+    grade = "A;"
+}else if(score >= 70 && score <= 89) {
+    grade = "b";
+}else if(score >= 60 && score <= 69) {
+    grade = "C";
+}else if(score >= 50 && score <= 59) {
+    grade = "D";
+}else if(score >= 0 && score <= 49) {
+    grade = "F";
+}
 
-// console.log("According to your scores, ( score =", score, ") your grade is:", grade);
+console.log("According to your scores, ( score =", score, ") your grade is:", grade);
